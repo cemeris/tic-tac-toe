@@ -1,0 +1,21 @@
+body {
+  background: #25e2e2;
+}
+.board {
+  border: none;
+  border-collapse: collapse;
+  margin: auto;
+}
+td {
+  width: 150px;
+  height: 150px;
+}
+
+tr:nth-child(2) {
+  border-top: 5px solid #343434;
+  border-bottom: 5px solid #343434;
+}
+td:nth-child(2) {
+  border-left: 5px solid #343434;
+  border-right: 5px solid #343434;
+}

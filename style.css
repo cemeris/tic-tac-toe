@@ -22,4 +22,14 @@ td:nth-child(2) {
 
 .player-x {
   background: url(x.svg);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+}
+
+.player-o {
+  background: url(o.svg);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
 }
